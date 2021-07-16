@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contacto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="contenedor contenido-header">
+        <div class="barra">
+          <a href="index.html"><img src="./img/logo.svg" alt="Logo"></a>
+          <nav id="navegacion" class="navegacion">
+            <ol>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="anuncios.html">Anuncios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li> 
+              </ol>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <h1 class="centrar-texto">Contacto</h1>
+    <img src="img/destacada3.jpg" alt="Imagen Principal">
+
+    <main class="contenedor seccion contenido-centrado">
+      <form class="contacto">
+        <h1 class="centrar-texto">Llena el formulario de Contacto</h1>
+
+        <fieldset>
+          <legend>Información Personal</legend>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Tu Nombre" id="nombre">
+          </div>
+
+          <div>
+            <label for="genero">Género:</label>
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="Género" id="masculino" value="masculino" >
+
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="Género" value="femenino" id="femenino">
+          </div>
+
+          <div>
+            <label for="email">E-mail: </label>
+            <input type="email" placeholder="Tu Correo electrónico" required id="email">
+          </div>
+
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel"  placeholder="Tu Teléfono" required id="telefono">
+          </div>
+
+          <div>
+            <label for="mensaje">Mensaje: </label>
+            <textarea ></textarea>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Información sobre Propiedad</legend>
+          <div>
+            <label for="operacion">Tipo</label>
+            <select >
+                <option value="" disabled selected>-- Seleccione --</option>
+                <option value="Compra">Compra</option>
+                <option value="Venta">Venta</option>
+                <option value="alquiler">Alquiler</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="inmueble">Inmueble</label>
+            <select>
+              <option value="" disabled selected>-- Seleccione --</option>
+              <option value="casa">Casa</option>
+              <option value="departamento">Departamento</option>
+            </select>
+          </div>
+        </fieldset>
+
+
+        <fieldset>
+          <legend>Contacto</legend>
+
+          <p>Como desea ser Contactado:</p>
+
+          <div>
+            <input type="checkbox" value="telefono" id="telefonoCheck">
+            <label for="telefonoCheck">Teléfono</label>
+          </div>
+          <div>
+            <input type="checkbox" value="correo" id="correo">
+            <label for="correo">E-mail</label>
+          </div>
+         
+
+          <p>Si eligió Teléfono, elija la fecha y la hora</p>
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha">
+
+          <label for="hora">Hora:</label>
+          <input type="time" min="09:00" max="18:00" id="hora">
+        </fieldset>
+
+        <div class="orden-botones">
+          <button type="reset" class="btn-izquierda">Borrar</button>
+          <button type="submit" class="btn-derecha">Enviar</button>
+
+        </div>
+          
+      </form>
+    </main>
+
+
+
+    <footer class="site-footer">
+      <div class="contenedor contenedor-footer">
+          <nav class="navegacion">
+            <ol>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="anuncios.html">Anuncios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li> 
+              </ol>
+          </nav>
+        </div>
+    </footer>
+  
+  </body>
+</html>

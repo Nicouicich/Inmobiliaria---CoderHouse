@@ -1,0 +1,110 @@
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus voluptates error assumenda quae repellat optio, aliquid consequatur amet quasi necessitatibus ex aperiam! Maiores atque exercitationem soluta laudantium quis, voluptatem velit?</p>
+      <table>
+        <thead> <!-- Encabezado de la tabla-->
+          <tr>
+            <th>Nombre</th>
+            <th>Ubicacion</th>
+            <th>Caracteristicas</th>
+            <th>Informacion Tecnica</th>
+          </tr>
+        </thead><!-- Cierra encabezado de la tabla-->
+
+        <tbody><!-- Empieza el cuerpo de la tabla-->
+          <tr>
+            <td>Departamento 10mo Piso</td>
+            <td>Recoleta</td>
+            <td>
+              <ol class="list-style">
+                <li>Mejor Precio</li>
+                <li>Ubicado en el centro</li>
+                <li>Expensas incluidas</li>
+                              
+              </ol>
+            </td>
+            <td>
+              <ul class="list-style">
+                <li>2 Ambientes</li>
+                <li>30 M2</li>
+                <li>1 Cocina</li>
+              </ul>
+            </td>
+            
+
+          </tr>
+
+          <tr>
+            <td>Casa de lujo</td>
+            <td>San Fernando</td>
+            <td>
+              <ol class="list-style" >
+                <li>Mejor Precio</li>
+                <li>En el bosque</li>
+                <li>A 5km de la Ciudad</li>                
+              </ol>
+            </td>
+            <td>
+              <ul >
+                <li>5 Ambientes</li>
+                <li>140 M2</li>
+                <li>2 Cocinas</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Departamento 5to Piso</td>
+            <td>Palermo</td>
+            <td>
+              <ol class="list-style">
+                <li>Mejor Precio</li>
+                <li>Ubicado en el centro</li>
+                <li>Servicios Incluidos</li>  
+              </ol>
+            </td>
+            <td>
+              <ul class="list-style">
+                <li>3 Ambientes</li>
+                <li>40 M2</li>
+                <li>1 Cocina</li>
+              </ul>
+            </td>
+          </tr>
+
+        </tbody><!--Cierra el cuerpo de la tabla-->
+ 
+      </table>
+
+
+
+th, td{
+  border: solid 1px rgb(211, 33, 33);
+  color: blue;
+}
+
+thead{
+  background-color: #246355;
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: #ddd;
+}
+table ul, table ol{
+  padding: auto;
+  margin: 30px;
+  background-color: green;
+  border-color: red;
+
+}
+
+table, th, td {
+  border: 1px solid red;
+
+}
+table ol {
+  list-style: none;
+}
+table ul {
+  list-style-type:circle ;
+}
