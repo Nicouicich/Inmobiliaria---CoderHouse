@@ -236,6 +236,9 @@ h2 {
   grid-template-columns: 60% 40%;
   
 }
+.imagen {
+  margin-bottom: 2rem;
+}
 
 
 /** Contacto Home **/
@@ -464,6 +467,9 @@ h2 {
   }
 }
 */
+.mg {
+  margin: 2rem;
+}
 
 .contenedor-anuncios {
   display: grid;
