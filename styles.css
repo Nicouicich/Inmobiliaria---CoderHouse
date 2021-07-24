@@ -224,7 +224,8 @@ h2 {
 }
 
 .texto-entrada {
- padding: 1rem;
+ padding-left: 1rem;
+ 
 }
 .testimonios div{
   margin-bottom: 1rem;
@@ -237,7 +238,12 @@ h2 {
   
 }
 .imagen {
-  margin-bottom: 2rem;
+  width: 100
+}
+
+.imagen img {
+  height: 85%;
+  width: 100%;
 }
 
 
@@ -245,7 +251,7 @@ h2 {
 
 .testimonial {
   background-color: #71B100;
-  font-size: 2rem;
+  font-size: 0.9rem;
   padding: 2rem;
   color: #ffffff;
   border-radius: 2rem;
