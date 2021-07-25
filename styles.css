@@ -322,10 +322,14 @@ h2 {
 
 #imagen {
   grid-area: sidebar;
+  margin-bottom: 1rem;
 }
 
 .texto-nosotros {
   grid-area: header;
+  background-image: linear-gradient(to right, blue, yellow);
+  margin-bottom: 1rem;
+
 }
 
 #imagen2 {
@@ -334,6 +338,7 @@ h2 {
 
 .texto-nosotros2 {
   grid-area: footer;
+  background-image: linear-gradient(to left, yellow, blue);
 }
 
 .texto-nosotros blockquote {
