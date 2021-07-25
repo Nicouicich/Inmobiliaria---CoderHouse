@@ -68,13 +68,14 @@ body {
 
 .navegacion a {
   color: white;
-  margin-right: 2rem;
   text-decoration: none;
 }
 
 .navegacion li {
   list-style: none;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .navegacion a.last-of-type {
@@ -97,9 +98,13 @@ a:visited {
 .site-footer {
   background-color: #333333;
 }
+.site-footer img {
+  width: 3%;
+}
 
 .contenedor-footer {
-  padding: 3rem 0;
+  margin-left: 2rem;
+  padding: 1rem 0;
 }
 
 /* CONTACTO */
@@ -146,7 +151,7 @@ button:hover {
   cursor: pointer;
 }
 
-boton {
+.boton {
   color: #ffffff;
   background-color: green;
   font-weight: 700;
@@ -548,4 +553,5 @@ h2 {
 .marg {
   margin: 2rem;
 }
+
 
