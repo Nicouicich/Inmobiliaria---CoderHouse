@@ -63,6 +63,12 @@ body {
   align-items: center;
   padding-top: 3rem;
 }
+.navbar a:hover {
+  color: #e08709 !important;
+}
+.navbar a {
+  color:white !important; 
+}
 
 /* NAVEGACION */
 
@@ -251,7 +257,7 @@ h2 {
   grid-template-columns: 60% 40%;
 }
 .imagen {
-  width: 100;
+  width: 100%;
 }
 
 .imagen img {
@@ -262,10 +268,10 @@ h2 {
 /** Contacto Home **/
 .testimonial {
   background-color: #e08709;
-  font-size: 1rem;
-  padding: 0.8rem;
+  font-size: 0.8rem;
+  padding: 0.65rem;
   color: #ffffff;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
 }
 @media (min-width:768px) {
   #testimonio1 {
@@ -562,4 +568,11 @@ h2 {
   margin: 2rem;
 }
 
+/* BLOG */
 
+.contenido-blog h4 {
+  color: black;
+}
+.contenido-blog img {
+  max-width: 535px;
+}
