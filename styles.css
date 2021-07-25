@@ -22,7 +22,7 @@ body {
 
 .site-header {
   background-color: #333333;
-  padding: 1rem 0 3rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
 .site-header.inicio {
@@ -73,7 +73,6 @@ body {
 
 .navegacion li {
   list-style: none;
-
 }
 
 .navegacion h3 {
@@ -91,15 +90,30 @@ body {
   background-color: #333333;
 
 }
+
 .site-footer img {
-  width: 2%;
+  width: 6%;
 }
 
+@media (min-width:992px) {
+  .site-footer img {
+    width: 2%;
+  }
+
+}
 .contenedor-footer {
   margin-left: 2rem;
   padding: 1rem 0;
 }
+.contenedor-footer p {
+  color: white;
+  text-align: right;
+  margin-right: 3rem;
+}
 
+.contenedor-footer p img {
+  width: 1%;
+}
 /* CONTACTO */
 
 .contacto h1 {
@@ -146,7 +160,7 @@ button:hover {
 
 .boton {
   color: #ffffff;
-  background-color: green;
+  background-color: #e08709;
   font-weight: 700;
   text-decoration: none;
   font-size: 1.2rem;
@@ -523,6 +537,7 @@ h2 {
   font-weight: 700;
 }
 .iconos-caracteristicas {
+  margin-top: 5rem;
   list-style: none;
   padding: 0;
   display: flex;
