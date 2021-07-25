@@ -73,33 +73,26 @@ body {
 
 .navegacion li {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
 }
 
-.navegacion a.last-of-type {
-  margin: 0;
-}
 .navegacion h3 {
   color: white;
 }
 
-a:visited {
-  color: white;
-}
-
-.navegacion a:hover {
-  color: #71b100;
+.navegacion li {
+  display: inline;
+  margin:1rem;
 }
 
 /** FOOTER */
 
 .site-footer {
   background-color: #333333;
+
 }
 .site-footer img {
-  width: 3%;
+  width: 2%;
 }
 
 .contenedor-footer {
@@ -254,7 +247,7 @@ h2 {
 
 /** Contacto Home **/
 .testimonial {
-  background-color: #71b100;
+  background-color: #e08709;
   font-size: 1rem;
   padding: 0.8rem;
   color: #ffffff;
@@ -277,7 +270,7 @@ h2 {
 }
 @media (min-width:992px){
   .testimonial {
-    background-color: #71b100;
+    background-color: #e08709;
     font-size: 0.9rem;
     padding: 1rem;
     color: #ffffff;
@@ -332,7 +325,7 @@ h2 {
 
 .texto-nosotros {
   grid-area: header;
-  background-image: linear-gradient(to right, blue, yellow);
+  background-image: linear-gradient(to right, rgb(170, 112, 5), rgb(179, 179, 4));
   margin-bottom: 1rem;
 
 }
@@ -343,7 +336,7 @@ h2 {
 
 .texto-nosotros2 {
   grid-area: footer;
-  background-image: linear-gradient(to left, yellow, blue);
+  background-image: linear-gradient(to left, rgb(170, 112, 5), rgb(179, 179, 4));
 }
 
 .texto-nosotros blockquote {
