@@ -517,7 +517,11 @@ h2 {
   .blog {
     .blog__entrada {
       display: block;
-    
+
+      img.blog__imagen {
+        width: 160px !important;
+        height: 110px !important;
+      }
   }
   }
   #primerEntrada {
