@@ -1,168 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Contacto</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+
+<head>
+  <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 
 
-  </head>
-  <body>
+</head>
 
-    <header class="site-header">
-      <div class="contenedor contenido-header">
-        <div class="barra">
-          <a href="index.html"><img src="./img/logo.svg" alt="Logo"></a>
-          <nav class="navbar navbar-expand-lg navbar-light ">
-              <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page"  href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page"  href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page"  href="anuncios.html">Anuncios</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page"  href="contacto.html">Contacto</a>
-                    </li>
-                  
-                  </ul>
-              
-                </div>
-              </div>
-            </nav>
-        </div>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor contenido-header">
+      <div class="barra">
+        <a href="index.html"><img src="./img/logo.svg" alt="Logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="anuncios.html">Anuncios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
 
-    <h1 class="centrar-texto mg">Contacto</h1>
-    <img src="img/destacada3.jpg" alt="Imagen Principal">
+  <h1 class="centrar-texto mg">Contacto</h1>
+  <img src="img/destacada3.jpg" alt="Imagen Principal">
 
-    <main class="contenedor seccion contenido-centrado">
-      <form class="contacto">
-        <h1 class="centrar-texto">Llena el formulario de Contacto</h1>
+  <main class="contenedor seccion contenido-centrado">
+    <form class="contacto">
+      <h1 class="centrar-texto">Llena el formulario de Contacto</h1>
 
-        <fieldset>
-          <legend>Información Personal</legend>
-          <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" placeholder="Tu Nombre" id="nombre">
-          </div>
-
-          <div>
-            <label for="genero">Género:</label>
-
-            <label for="masculino">Masculino</label>
-            <input type="radio" name="Género" id="masculino" value="masculino" >
-
-            <label for="femenino">Femenino</label>
-            <input type="radio" name="Género" value="femenino" id="femenino">
-          </div>
-
-          <div>
-            <label for="email">E-mail: </label>
-            <input type="email" placeholder="Tu Correo electrónico" required id="email">
-          </div>
-
-          <div>
-            <label for="telefono">Teléfono:</label>
-            <input type="tel"  placeholder="Tu Teléfono" required id="telefono">
-          </div>
-
-          <div>
-            <label for="mensaje">Mensaje: </label>
-            <textarea ></textarea>
-          </div>
-
-        </fieldset>
-
-        <fieldset>
-          <legend>Información sobre Propiedad</legend>
-          <div>
-            <label for="operacion">Tipo</label>
-            <select >
-                <option value="" disabled selected>-- Seleccione --</option>
-                <option value="Compra">Compra</option>
-                <option value="Venta">Venta</option>
-                <option value="alquiler">Alquiler</option>
-            </select>
-          </div>
-
-          <div>
-            <label for="inmueble">Inmueble</label>
-            <select>
-              <option value="" disabled selected>-- Seleccione --</option>
-              <option value="casa">Casa</option>
-              <option value="departamento">Departamento</option>
-            </select>
-          </div>
-        </fieldset>
-
-
-        <fieldset>
-          <legend>Contacto</legend>
-
-          <p>Como desea ser Contactado:</p>
-
-          <div>
-            <input type="checkbox" value="telefono" id="telefonoCheck">
-            <label for="telefonoCheck">Teléfono</label>
-          </div>
-          <div>
-            <input type="checkbox" value="correo" id="correo">
-            <label for="correo">E-mail</label>
-          </div>
-         
-
-          <p>Si eligió Teléfono, elija la fecha y la hora</p>
-          <label for="fecha">Fecha:</label>
-          <input type="date" id="fecha">
-
-          <label for="hora">Hora:</label>
-          <input type="time" min="09:00" max="18:00" id="hora">
-        </fieldset>
-
-        <div class="orden-botones">
-          <button type="reset" class="btn-izquierda btn btn-danger">Borrar</button>
-          <button type="submit" class="btn-derecha btn btn-success">Enviar</button>
-
-        </div>
-          
-      </form>
-    </main>
-
-
-
-    <footer class="site-footer">
-      <div class="contenedor-footer">
-          <nav class="navegacion">
-              <h3>Seguinos en nuestras Redes Sociales</h3>
-              <ol>
-                <li><a href="https://www.instagram.com/"><img src="img/instagram.svg" alt=""></a></li> 
-                <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt=""></a></li>
-                <li><a href="https://twitter.com/"><img src="img/twitter.svg" alt=""></a></li>
-              </ol>
-          </nav>
-          <p>Todos los derechos reservados 2021<img src="img/copyright.svg" alt=""></p>
-
+      <fieldset>
+        <legend>Información Personal</legend>
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" placeholder="Tu Nombre" id="nombre">
         </div>
 
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <div>
+          <label for="genero">Género:</label>
 
-  </body>
+          <label for="masculino">Masculino</label>
+          <input type="radio" name="Género" id="masculino" value="masculino">
+
+          <label for="femenino">Femenino</label>
+          <input type="radio" name="Género" value="femenino" id="femenino">
+        </div>
+
+        <div>
+          <label for="email">E-mail: </label>
+          <input type="email" placeholder="Tu Correo electrónico" required id="email">
+        </div>
+
+        <div>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" placeholder="Tu Teléfono" required id="telefono">
+        </div>
+
+        <div>
+          <label for="mensaje">Mensaje: </label>
+          <textarea></textarea>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Información sobre Propiedad</legend>
+        <div>
+          <label for="operacion">Tipo</label>
+          <select>
+            <option value="" disabled selected>-- Seleccione --</option>
+            <option value="Compra">Compra</option>
+            <option value="Venta">Venta</option>
+            <option value="alquiler">Alquiler</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="inmueble">Inmueble</label>
+          <select>
+            <option value="" disabled selected>-- Seleccione --</option>
+            <option value="casa">Casa</option>
+            <option value="departamento">Departamento</option>
+          </select>
+        </div>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>Contacto</legend>
+
+        <p>Como desea ser Contactado:</p>
+
+        <div>
+          <input type="checkbox" value="telefono" id="telefonoCheck">
+          <label for="telefonoCheck">Teléfono</label>
+        </div>
+        <div>
+          <input type="checkbox" value="correo" id="correo">
+          <label for="correo">E-mail</label>
+        </div>
+
+
+        <p>Si eligió Teléfono, elija la fecha y la hora</p>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha">
+
+        <label for="hora">Hora:</label>
+        <input type="time" min="09:00" max="18:00" id="hora">
+      </fieldset>
+
+      <div class="orden-botones">
+        <button type="reset" class="btn-izquierda btn btn-danger">Borrar</button>
+        <button type="submit" class="btn-derecha btn btn-success">Enviar</button>
+
+      </div>
+
+    </form>
+  </main>
+
+
+
+  <footer class="site-footer">
+    <div class="contenedor-footer">
+      <nav class="navegacion">
+        <h3>Seguinos en nuestras Redes Sociales</h3>
+        <ol>
+          <li><a href="https://www.instagram.com/"><img src="img/instagram.svg" alt="Foto de instagram"></a></li>
+          <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Foto de Facebook"></a></li>
+          <li><a href="https://twitter.com/"><img src="img/twitter.svg" alt="Foto de Twitter"></a></li>
+        </ol>
+      </nav>
+      <p>Todos los derechos reservados 2021<img src="img/copyright.svg" alt=" Foto del Coppyright"></p>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
