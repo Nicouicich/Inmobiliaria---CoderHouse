@@ -265,7 +265,7 @@ h2 {
   padding-left: 1rem;
 }
 
-.blog .blog__entrada .texto-entrada {
+.blog .blog__entrada .blog__texto-entrada {
   padding-left: 1rem;
 }
 
@@ -580,14 +580,14 @@ h2 {
     width: 100%;
   }
   .blog #primerEntrada {
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
   }
   .testimonios {
     width: 85%;
   }
   .testimonios #testimonio1 {
     margin-top: 5rem;
-    margin-bottom: 9rem;
+    margin-bottom: 6rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
