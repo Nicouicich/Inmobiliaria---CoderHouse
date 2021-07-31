@@ -581,9 +581,9 @@ h2 {
   .blog .blog__entrada img.blog__imagen {
     width: 190px !important;
     height: 140px !important;
-    border-radius: 1px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 60px -16px #05e6e6;
+            box-shadow: 60px -16px #05e6e6;
   }
   #primerEntrada {
     margin-bottom: 4rem;
