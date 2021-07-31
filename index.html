@@ -16,23 +16,7 @@
 </head>
 
 <body>
-  <!-- <header class="site-header inicio">
-      <div class="contenedor contenido-header">
-        <div class="barra">
-          <a href="index.html"><img src="./img/logo.svg" alt="Logo"></a>
-          <nav id="navegacion" class="navegacion">
-            <ol>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="anuncios.html">Anuncios</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
-              </ol>
-          </nav>
-        </div>
-          <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
-      </div>
-    </header>
-       -->
+  
   <header class="site-header inicio">
     <div class="contenedor contenido-header">
       <div class="barra">
@@ -76,22 +60,22 @@
   <section class="contenedor seccion">
     <h2 class="centrar-texto mg">Más Sobre Nosotros</h2>
 
-    <div class="iconos-nosotros">
-      <div class="icono">
+    <div class="iconos-nosotros mg">
+      <div class="iconos-nosotros__icono mg">
         <img src="./img/icono1.svg" alt="Icono Seguridad">
         <h3>Seguridad</h3>
         <p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit
           dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
       </div>
 
-      <div class="icono">
+      <div class="iconos-nosotros__icono mg">
         <img src="img/icono2.svg" alt="Icono Mejor Precio">
         <h3>El Mejor Precio</h3>
         <p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit
           dignissimos maiores iure id, magnam non voluptatum molestiae doloremque.</p>
       </div>
 
-      <div class="icono">
+      <div class="iconos-nosotros__icono mg">
         <img src="img/icono3.svg" alt="Icono a Tiempo">
         <h3>A Tiempo</h3>
         <p>Quasi quibusdam, quos deserunt, recusandae iusto dolorem voluptatibus quaerat veritatis consectetur culpa sit
@@ -102,7 +86,7 @@
 
 
   <main class="seccion contenedor">
-    <h2 class="centrar-texto marg">Casas y Departamentos en Venta</h2>
+    <h2 class="centrar-texto mg">Casas y Departamentos en Venta</h2>
 
     <div class="contenedor-anuncios">
       <div class="anuncio">
@@ -195,95 +179,49 @@
     </div>
   </div>
 
-
-  <!-- <div class="seccion-inferior contenedor seccion">
-      <section class="blog">
-          <h3 class="centrar-texto">Nuestro Blog</h3>
-
-          <article class="entrada-blog">
-              <div class="imagen">
-                  <img src="./img/blog1.jpg" alt="Entrada de blog">
-              </div>
-              <div class="texto-entrada">
-                  <h4>Terraza  en el techo de tu casa</h4>
-                  <p>Escrito el: <span> 20/06/2021 </span> por: <span> Admin </span> </p>
-                  <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorrando dinero</p>
-              </div>
-          </article>
-
-          <article class="entrada-blog">
-              <div class="imagen">
-                  <img src="./img/blog2.jpg" alt="Entrada de blog">
-              </div>
-              <div class="texto-entrada">
-                <h4>Guía para la decoración de tu hogar</h4>
-                <p>Escrito el: <span> 20/06/2021 </span> por: <span> Admin </span> </p>
-                <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio</p>
-              </div>
-          </article>
-      </section>
-
-      <section class="testimonios">
-        <h3 class="centrar-texto " id="testimonio1">Testimonios</h3>
-        <div class="testimonial">
-            <blockquote>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus optio dolore ipsa neque similique numquam quasi animi ex velit, eveniet labore, sed commodi qui tempore atque nostrum omnis quidem eum."
-            </blockquote>
-            <p>- Nicolás Uicich</p>
-        </div>
-
-        <div class="testimonial">    
-            <blockquote>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laborum vel illum ratione enim ex consectetur? Ea ipsum magnam voluptatibus expedita. Nostrum deserunt nobis labore impedit architecto, eligendi delectus veritatis?"
-            </blockquote>
-            <p>- Nicolás Uicich</p>
-        </div>
-      </section>
-    </div> -->
-
   <div class="container">
     <div class="row">
       <div class="col-6">
-        <section class="blog">
+        <section class="blog"> <!-- Bloque-->
           <h3 class="centrar-texto mg">Nuestro Blog</h3>
 
-          <article class="entrada-blog" id="primerEntrada">
-            <img src="./img/blog1.jpg" alt="Entrada de blog" class='imagen-blog'>
+          <article class="blog__entrada" id="primerEntrada">
+            <img src="./img/blog1.jpg" alt="Entrada de blog" class='blog__imagen'>
             <div class="texto-entrada">
               <h4>Terraza en el techo de tu casa</h4>
               <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorrando dinero</p>
             </div>
           </article>
 
-          <article class="entrada-blog">
-            <img src="./img/blog2.jpg" alt="Entrada de blog" class='imagen-blog'>
+          <article class="blog__entrada">
+            <img src="./img/blog2.jpg" alt="Entrada de blog" class='blog__imagen'>
             <div class="texto-entrada">
               <h4>Guía para la decoración de tu hogar</h4>
               <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio</p>
             </div>
           </article>
-        </section>
+        </section> <!-- FIN Bloque-->
       </div>
 
       <div class="col-6">
-        <section class="testimonios mg">
+        <section class="testimonios mg"><!--Bloque-->
           <h3 class="centrar-texto ">Testimonios</h3>
-          <div class="testimonial" id="testimonio1">
+          <div class="testimonios__testimonial" id="testimonio1">
             <blockquote>
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus optio dolore ipsa neque similique numquam quasi animi ex velit, eveniet labore, sed commodi qui tempore atque nostrum omnis quidem eum."
             </blockquote>
             <p>- Nicolás Uicich</p>
           </div>
 
-          <div class="testimonial">
+          <div class="testimonios__testimonial"> 
             <blockquote>
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laborum vel illum ratione enim ex
               consectetur? Ea ipsum magnam voluptatibus expedita. Nostrum deserunt nobis labore impedit architecto,
               eligendi delectus veritatis?"
             </blockquote>
             <p>- Nicolás Uicich</p>
-          </div>
-        </section>
+          </div> 
+        </section><!-- FIN Bloque-->
       </div>
 
     </div>
