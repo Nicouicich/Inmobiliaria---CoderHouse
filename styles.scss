@@ -239,8 +239,6 @@ h2 {
   #primerEntrada {
     margin-bottom: 2rem;
   }
-
-
 }
 
 .testimonios {
@@ -517,14 +515,15 @@ h2 {
 
   /* BLOG - INDEX */
   .blog {
-  .blog__entrada {
-    display: block;
-    width: 100%;
+    .blog__entrada {
+      display: block;
+      width: 100%;
+    
+  }
   }
   #primerEntrada {
-    margin-bottom:4rem;
+    margin-bottom: 4rem;
   }
-}
   .testimonios {
     width: 85%;
     #testimonio1 {

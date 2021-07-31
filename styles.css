@@ -579,7 +579,7 @@ h2 {
     display: block;
     width: 100%;
   }
-  .blog #primerEntrada {
+  #primerEntrada {
     margin-bottom: 4rem;
   }
   .testimonios {
