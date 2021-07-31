@@ -582,8 +582,9 @@ h2 {
     width: 190px !important;
     height: 140px !important;
     border-radius: 5px;
-    -webkit-box-shadow: 60px -16px #05e6e6;
-            box-shadow: 60px -16px #05e6e6;
+    -webkit-box-shadow: -1px 4px 18px 0px rgba(0, 0, 0, 0.38);
+            box-shadow: -1px 4px 18px 0px rgba(0, 0, 0, 0.38);
+    margin-left: 2rem;
   }
   #primerEntrada {
     margin-bottom: 4rem;
