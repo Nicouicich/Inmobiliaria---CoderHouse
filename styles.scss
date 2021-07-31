@@ -1,3 +1,5 @@
+$naranja : #e08709;
+
 * {
   padding-left: 0;
   margin: 0;
@@ -29,7 +31,7 @@ body {
   }
 
   .navbar a:hover {
-    color: #e08709 !important;
+    color: $naranja !important;
   }
   .navbar a {
     color: white !important;
@@ -152,7 +154,7 @@ button:hover {
 
 .boton {
   color: #ffffff;
-  background-color: #e08709;
+  background-color: $naranja;
   font-weight: 700;
   text-decoration: none;
   font-size: 1.2rem;
@@ -160,8 +162,8 @@ button:hover {
   text-align: center;
 }
 
-.boton-amarillo {
-  background-color: #e08709;
+.boton-naranja {
+  background-color: $naranja;
   font-weight: 700;
   text-decoration: none;
   font-size: 1.2rem;
@@ -191,6 +193,11 @@ textarea {
 
 .contenido-centrado {
   max-width: 1000px;
+}
+
+@mixin tamañoFotos($width,$heigth) {
+  width: $width!important;
+  height: $heigth!important;
 }
 
 /* BODY */
@@ -261,8 +268,9 @@ h2 {
 }
 
 .container img.blog__imagen {
-  width: 210px !important;
-  height: 170px !important;
+  @include tamañoFotos(210px,170px);
+  // width: 210px !important;
+  // height: 170px !important;
 }
 
 .contenido-blog {
@@ -271,6 +279,34 @@ h2 {
   }
   img {
     max-width: 535px;
+  }
+  @for $i from 1 through 4 {
+    .blog__entrada-entrada#{$i}{
+      
+        background-color: darken($naranja, $i*2);
+        margin:1rem;
+        @if ($i == 1){
+          p{
+            color: white;
+          }
+        }
+        @else if ($i == 2){
+          p {
+            color:rgba(247, 233, 215, 0.933)
+          }
+        }
+        @else if ($i == 3){
+          p {
+            color:rgba(0, 0, 0, 0.933)
+          }
+        }
+        @else {
+          p {
+            color:rgba(159, 162, 182, 0.782)
+          }
+        }
+      
+    }
   }
 }
 
@@ -281,7 +317,7 @@ h2 {
 }
 
 .testimonios__testimonial {
-  background-color: #e08709;
+  background-color: $naranja;
   font-size: 0.9rem;
   padding: 1rem;
   color: #ffffff;
@@ -303,6 +339,12 @@ h2 {
   color: white;
   h2 {
     padding-top: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -519,8 +561,9 @@ h2 {
       display: block;
 
       img.blog__imagen {
-        width: 190px !important;
-        height: 140px !important;
+        @include tamañoFotos(190px,140px);
+        // width: 190px !important;
+        // height: 140px !important;
         border-radius: 5px;
         box-shadow: -1px 4px 18px 0px rgba(0, 0, 0, 0.38);
         margin-left: 1rem;
