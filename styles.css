@@ -577,7 +577,6 @@ h2 {
   /* BLOG - INDEX */
   .blog .blog__entrada {
     display: block;
-    width: 100%;
   }
   #primerEntrada {
     margin-bottom: 4rem;
@@ -588,6 +587,14 @@ h2 {
   .testimonios #testimonio1 {
     margin-top: 5rem;
     margin-bottom: 6rem;
+  }
+  /* NOSOTROS */
+  .contenido-nosotros {
+    display: block;
+    width: 100%;
+  }
+  .contenido-nosotros .texto-nosotros2 {
+    margin-top: 1rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
