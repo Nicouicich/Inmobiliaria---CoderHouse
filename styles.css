@@ -586,7 +586,7 @@ h2 {
             box-shadow: -1px 4px 18px 0px rgba(0, 0, 0, 0.38);
     margin-left: 1rem;
   }
-  #primerEntrada {
+  .blog #primerEntrada {
     margin-bottom: 4rem;
   }
   .testimonios {

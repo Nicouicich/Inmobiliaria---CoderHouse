@@ -525,11 +525,12 @@ h2 {
         box-shadow: -1px 4px 18px 0px rgba(0, 0, 0, 0.38);
         margin-left: 1rem;
       }
+    }
+    #primerEntrada {
+      margin-bottom: 4rem;
+    }
   }
-  }
-  #primerEntrada {
-    margin-bottom: 4rem;
-  }
+
   .testimonios {
     width: 85%;
     #testimonio1 {
@@ -540,8 +541,7 @@ h2 {
 
   /* NOSOTROS */
   .contenido-nosotros {
-
-    display:block;
+    display: block;
     width: 100%;
     .texto-nosotros2 {
       margin-top: 1rem;
