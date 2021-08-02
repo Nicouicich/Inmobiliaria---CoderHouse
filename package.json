@@ -1,0 +1,31 @@
+{
+  "name": "curso-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicouicich/Inmobiliaria---CoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicouicich/Inmobiliaria---CoderHouse/issues"
+  },
+  "homepage": "https://github.com/Nicouicich/Inmobiliaria---CoderHouse#readme",
+  "dependencies": {
+    "sass": "^1.37.0"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  
+  "build-css": 
+  "node-sass --include-path scss styles.scss syles.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  
+}
