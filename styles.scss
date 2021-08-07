@@ -547,12 +547,8 @@ h2 {
   img {
     height: 80%;
     width: 800px;
-    text-align: center;
-    justify-content: center;
   }
-  img {
-    align-items: center;
-  }
+  
   h5 {
     color: black;
   }
@@ -560,6 +556,10 @@ h2 {
   p {
     color: black;
   }
+  $-indicators {
+    height:2rem;
+  }
+ 
 }
 
 /* MEDIA QUERIES */

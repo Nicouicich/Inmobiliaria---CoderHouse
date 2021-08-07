@@ -627,16 +627,6 @@ h2 {
 .carousel img {
   height: 80%;
   width: 800px;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.carousel img {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .carousel h5 {
