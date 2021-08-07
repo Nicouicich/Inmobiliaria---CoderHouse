@@ -130,6 +130,10 @@ body {
 }
 
 /*CONTACTO*/
+#contacto-img {
+  width: 100%;
+}
+
 .contacto {
   line-height: 3;
 }
@@ -367,19 +371,13 @@ h2 {
   display: grid;
   -ms-grid-columns: 2fr 2fr;
       grid-template-columns: 2fr 2fr;
-  grid-column-gap: 3rem;
   margin-bottom: 2rem;
 }
 
-.contenido-nosotros .texto-nosotros {
-  margin-bottom: 1rem;
-}
-
 .contenido-nosotros .texto-nosotros blockquote {
-  font-weight: 900;
+  font-weight: 300;
   font-size: 2rem;
   margin: 0;
-  padding: 1rem 0 3rem 0;
 }
 
 /* ANUNCIOS */
@@ -605,12 +603,16 @@ h2 {
   margin: 0 25%;
 }
 
-.carousel h5 {
-  color: white;
-}
-
-.carousel p {
-  color: white;
+.carousel .carousel-description {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2px 10px;
+  border-radius: 4px;
+  background-color: #333333;
+  -webkit-box-shadow: 0px 2px 3px 1px #333333;
+          box-shadow: 0px 2px 3px 1px #333333;
 }
 
 /* MEDIA QUERIES */

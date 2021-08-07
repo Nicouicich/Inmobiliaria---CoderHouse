@@ -112,6 +112,10 @@ body {
 }
 
 /*CONTACTO*/
+#contacto-img{
+    width: 100%;
+  
+}
 
 .contacto {
   line-height: 3;
@@ -282,7 +286,6 @@ h2 {
   img {
     max-width: 535px;
   }
-  
 }
 
 .contenido-blog .blog__entrada img.blog__imagen {
@@ -312,7 +315,7 @@ h2 {
     text-decoration: none;
   }
   a:hover {
-    color:black;
+    color: black;
   }
 }
 
@@ -335,17 +338,12 @@ h2 {
   text-align: justify;
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-column-gap: 3rem;
   margin-bottom: 2rem;
   .texto-nosotros {
-
-    margin-bottom: 1rem;
-   
     blockquote {
-      font-weight: 900;
+      font-weight: 300;
       font-size: 2rem;
       margin: 0;
-      padding: 1rem 0 3rem 0;
     }
   }
 }
@@ -488,7 +486,7 @@ h2 {
       text-decoration: none;
     }
     a:hover {
-      color:black;
+      color: black;
     }
   }
 
@@ -519,32 +517,31 @@ h2 {
   display: flex;
   justify-content: flex-end;
   a:hover {
-    color:black;
+    color: black;
     text-decoration: none;
   }
 }
 
 /* Página anuncios */
 .carousel {
-  .carousel-inner{
+  .carousel-inner {
     width: 100%;
     background-color: #333333;
-    margin-top:2rem;
+    margin-top: 2rem;
   }
   img {
     width: 50%;
     margin: 0 25%;
   }
-  
-  h5 {
-    color: white;
-  }
 
-  p {
-    color: white;
+  .carousel-description {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2px 10px;
+    border-radius: 4px;
+    background-color: #333333;
+    box-shadow: 0px 2px 3px 1px #333333;
   }
-
- 
  
 }
 
