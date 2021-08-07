@@ -308,6 +308,12 @@ h2 {
   background-size: cover;
   height: 40rem;
   margin-top: 60px;
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color:black;
+  }
 }
 
 .contenido-contacto {
@@ -520,13 +526,14 @@ h2 {
 
 /* Página anuncios */
 .carousel {
-  .carousel-inner,
-  .item,
-  img {
-    height: 80%;
-    width: 800px;
+  .carousel-inner{
+    width: 100%;
+    background-color: #333333;
     margin-top:2rem;
-    margin-bottom:2rem;
+  }
+  img {
+    width: 50%;
+    margin: 0 25%;
   }
   
   h5 {

@@ -337,6 +337,14 @@ h2 {
   margin-top: 60px;
 }
 
+.imagen-contacto a {
+  text-decoration: none;
+}
+
+.imagen-contacto a:hover {
+  color: black;
+}
+
 .contenido-contacto {
   color: white;
 }
@@ -586,13 +594,15 @@ h2 {
 }
 
 /* Página anuncios */
-.carousel .carousel-inner,
-.carousel .item,
-.carousel img {
-  height: 80%;
-  width: 800px;
+.carousel .carousel-inner {
+  width: 100%;
+  background-color: #333333;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+}
+
+.carousel img {
+  width: 50%;
+  margin: 0 25%;
 }
 
 .carousel h5 {
