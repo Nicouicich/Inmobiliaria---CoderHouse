@@ -681,12 +681,12 @@ h2 {
   }
   .contenido-nosotros .texto-nosotros blockquote {
     font-weight: 10;
-    font-size: 2rem;
+    font-size: 1.5git rem;
   }
   .contenido-nosotros #imagen {
     width: 100% !important;
     margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 }
 
