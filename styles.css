@@ -114,19 +114,23 @@ body {
   width: 2%;
 }
 
-.contenedor-footer {
+.site-footer .contenedor-footer {
   margin-left: 2rem;
   padding: 1rem 0;
 }
 
-.contenedor-footer p {
+.site-footer .contenedor-footer p {
   color: white;
   text-align: right;
   margin-right: 3rem;
 }
 
-.contenedor-footer p img {
+.site-footer .contenedor-footer p img {
   width: 1%;
+}
+
+.site-footer .contenedor-footer h3 {
+  margin-bottom: 1rem;
 }
 
 /*CONTACTO*/
@@ -642,6 +646,10 @@ h2 {
     display: block;
   }
   /* BLOG - INDEX */
+  .container .row {
+    display: block !important;
+    text-align: center;
+  }
   .blog .blog__entrada {
     display: block;
   }
@@ -679,6 +687,13 @@ h2 {
     width: 100% !important;
     margin-right: 2rem;
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* NOSOTROS */
+  h1 {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
