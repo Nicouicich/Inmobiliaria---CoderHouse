@@ -282,29 +282,7 @@ h2 {
   img {
     max-width: 535px;
   }
-  @for $i from 1 through 4 {
-    .blog__entrada-entrada#{$i} {
-      background-color: darken($naranja, $i * 2);
-      margin: 1rem;
-      @if ($i == 1) {
-        p {
-          color: white;
-        }
-      } @else if ($i == 2) {
-        p {
-          color: rgba(247, 233, 215, 0.933);
-        }
-      } @else if ($i == 3) {
-        p {
-          color: rgba(0, 0, 0, 0.933);
-        }
-      } @else {
-        p {
-          color: rgba(159, 162, 182, 0.782);
-        }
-      }
-    }
-  }
+  
 }
 
 .contenido-blog .blog__entrada img.blog__imagen {
@@ -547,15 +525,18 @@ h2 {
   img {
     height: 80%;
     width: 800px;
+    margin-top:2rem;
+    margin-bottom:2rem;
   }
   
   h5 {
-    color: black;
+    color: white;
   }
 
   p {
-    color: black;
+    color: white;
   }
+
  
  
 }
