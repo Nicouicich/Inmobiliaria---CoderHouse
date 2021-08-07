@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding-left: 0;
   margin: 0;
@@ -211,6 +212,10 @@ img {
   text-align: center;
 }
 
+.wd {
+  width: 80%;
+}
+
 textarea {
   height: 20rem;
 }
@@ -388,18 +393,13 @@ h2 {
   text-align: justify;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: 'sidebar header' 'footer main';
-  grid-column-gap: 2rem;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  grid-column-gap: 3rem;
+  margin-bottom: 2rem;
 }
 
 .contenido-nosotros .texto-nosotros {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: header;
-  background-image: -webkit-gradient(linear, left top, right top, from(#aa7005), to(#b3b304));
-  background-image: linear-gradient(to right, #aa7005, #b3b304);
   margin-bottom: 1rem;
 }
 
@@ -408,27 +408,6 @@ h2 {
   font-size: 2rem;
   margin: 0;
   padding: 1rem 0 3rem 0;
-}
-
-.contenido-nosotros .texto-nosotros2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: footer;
-  background-image: -webkit-gradient(linear, right top, left top, from(#aa7005), to(#b3b304));
-  background-image: linear-gradient(to left, #aa7005, #b3b304);
-}
-
-#imagen {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: sidebar;
-  margin-bottom: 1rem;
-}
-
-#imagen2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: main;
 }
 
 /* ANUNCIOS */
@@ -581,12 +560,18 @@ h2 {
   padding: 2rem;
 }
 
-.contenedor-anuncios .contenido-anuncio h3, .contenedor-anuncios .contenido-anuncio p {
+.contenedor-anuncios .contenido-anuncio h3,
+.contenedor-anuncios .contenido-anuncio p {
   margin: 0;
 }
 
 .contenedor-anuncios .contenido-anuncio a {
   display: block;
+  text-decoration: none;
+}
+
+.contenedor-anuncios .contenido-anuncio a:hover {
+  color: black;
 }
 
 .contenedor-anuncios .precio {
@@ -629,6 +614,37 @@ h2 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.ver-todas a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Página anuncios */
+.carousel .carousel-inner,
+.carousel .item,
+.carousel img {
+  height: 80%;
+  width: 800px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel h5 {
+  color: black;
+}
+
+.carousel p {
+  color: black;
 }
 
 /* MEDIA QUERIES */

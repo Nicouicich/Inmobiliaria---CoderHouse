@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-  
+
   <header class="site-header">
     <div class="contenedor contenido-header">
       <div class="barra">
@@ -50,39 +52,77 @@
 
 
 
- 
-    <div class="contenedor-anuncios seccion-anuncios">
-      <div class="anuncio">
-        <img id="primerImagen" src="img/anuncio1.jpg" alt="Anuncio casa en el lago">
-        <div class="overlay"></div>
-        
-        <div class="contenido-anuncio">
-          <h3>Casa de Lujo en el Lago</h3>
-          <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-          <p class="precio">$3,000,0000</p>
 
-          <ul class="iconos-caracteristicas">
-            <li>
-              <img src="img/icono_wc.svg" alt="icono wc">
-              <p>3</p>
-            </li>
-            <li>
-              <img src="img/icono_estacionamiento.svg" alt="icono autos">
-              <p>3</p>
-            </li>
-            <li>
-              <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
-              <p>4</p>
-            </li>
-          </ul>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/anuncio1.jpg" class="d-block w-100" alt="Foto anuncio 1">
+
+        <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+      </div>
 
 
-          <a href="anuncio1.html" class="boton boton-naranja ">Ver Propiedad</a>
+      <div class="carousel-item">
+        <img src="img/anuncio2.jpg" class="d-block w-100" alt="Foto anuncio 2">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      <div class="carousel-item">
+        <img src="img/anuncio3.jpg" class="d-block w-100" alt="Foto anuncio 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
+      <div class="carousel-item">
+        <img src="img/anuncio4.jpg" class="d-block w-100" alt="Foto anuncio 4">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fourth slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
       </div>
+      <div class="carousel-item">
+        <img src="img/anuncio5.jpg" class="d-block w-100" alt="Foto anuncio 5">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fifth slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/anuncio6.jpg" class="d-block w-100" alt="Foto anuncio 6">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Six slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
 
-  
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
 
 
 
@@ -109,4 +149,5 @@
     crossorigin="anonymous"></script>
 
 </body>
+
 </html>
