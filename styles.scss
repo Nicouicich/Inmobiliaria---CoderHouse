@@ -550,7 +550,7 @@ h2 {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 992px) {
+@media (max-width: 960px) {
   /*FOOTER */
   .site-footer {
     img {
@@ -586,7 +586,11 @@ h2 {
   .blog {
     .blog__entrada {
       display: block;
+      text-align: center;
 
+      h4{
+        margin-top: 10px;
+      }
       img.blog__imagen {
         @include tamañoFotos(190px, 140px);
         // width: 190px !important;
@@ -599,14 +603,56 @@ h2 {
     #primerEntrada {
       margin-bottom: 5rem;
     }
+
+    &__texto-entrada{
+      padding: 0 !important;
+      margin-top: 5px;
+    }
+
+    &-mobile{
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+  }
+
+  .ver-todas{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenido-contacto{
+    text-align: center;
   }
 
   .testimonios {
+    &-mobile{
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
     width: 85%;
     #testimonio1 {
       margin-top: 5rem;
       margin-bottom: 6rem;
     }
+  }
+
+  .texto-nosotros {
+    blockquote{
+      font-weight: 400 !important;
+      font-size: 1.2rem !important;
+      padding: 0 1rem;
+      line-height: 2rem;
+    }
+  }
+
+  .carousel img{
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  nav.navegacion {
+    text-align: center;
   }
 }
 @media (max-width: 1200px) {
